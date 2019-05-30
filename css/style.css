@@ -1,0 +1,54 @@
+header{
+    background-color:rgb(70, 69, 69);
+    height: 90px;    
+}
+logo{
+    position:absolute;
+    margin: 10px 0px 10px 280px;
+    
+}
+
+ul li{
+    position: relative;
+    display: inline-block;
+    margin-right: 80px;
+    left: 530px;
+    top: 35px;
+    color: rgb(207, 206, 206);
+    
+}
+#hero-image{
+    margin: 30px auto 0px auto;
+    text-align: center;
+}
+
+#gallery {
+    text-align: center;
+    margin: 0px auto;
+}
+#gallery img{
+    margin: 30px 28px 0px 0px;
+}
+#gallery #last-image{
+    margin:0px;
+}
+#featured img{
+margin: 30px 30px 30px 276px;
+}
+#featured #text{
+    width: 460px;
+    position: relative;
+    left: 785px;
+    height: 400px;
+    bottom: 435px;
+    text-align:left;
+}
+#featured heading{
+    
+}
+#featured p{
+    padding-top: 23px;
+}
+#featured button{
+    margin-top: 23px;
+}
