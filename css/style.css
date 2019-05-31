@@ -1,7 +1,11 @@
+body{
+    overflow: auto;
+}
 header{
     background-color:rgb(70, 69, 69);
     height: 90px;    
 }
+
 logo{
     position:absolute;
     margin: 10px 0px 10px 280px;
@@ -16,6 +20,7 @@ ul li{
     color: rgb(170, 168, 168);
     font-size: 18px;    
 }
+
 #hero-image{
     margin: 30px auto 0px auto;
     text-align: center;
@@ -25,15 +30,19 @@ ul li{
     text-align: center;
     margin: 0px auto;
 }
+
 #gallery img{
     margin: 30px 28px 0px 0px;
 }
+
 #gallery #last-image{
     margin:0px;
 }
+
 #featured {
     height: 460px;
 }
+
 #featured img{
 margin: 30px 30px 30px 276px;
 }
@@ -45,32 +54,39 @@ margin: 30px 30px 30px 276px;
     height: 400px;
     bottom: 433px;
     text-align:left;
-    
 }
+
 #featured heading{
-    font-size: 22px;
-    
+    font-size: 22px; 
 }
+
 #featured p{
     padding-top: 16px;
     line-height: 22px;
     font-size: 18px;
     font-style: italic;
     overflow:auto;
-    height: 290px;
-    
+    height: 290px;   
 }
+
 #featured button{
     margin-top: 23px;
     border: black;
-    border-radius: 5px;
-    width: 200px;
+    width: 170px;
     height: 50px;
     color:rgb(170, 168, 168);
     background-color: black;
     font-size: 18px;
-
 }
+
+#featured button:hover {
+    border-radius: 5px;
+    background-color: rgb(150, 147, 147);
+    color:black;
+    width:270px;
+    transition: 350ms;
+}
+
 footer{
     height: 140px;
     background-color:rgb(70, 69, 69);
